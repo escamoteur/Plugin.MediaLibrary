@@ -1,4 +1,6 @@
-﻿using System;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Plugin.MediaLibrary.Abstractions
 {
@@ -7,5 +9,6 @@ namespace Plugin.MediaLibrary.Abstractions
   /// </summary>
   public interface IMediaLibrary
   {
+      IEnumerable<Album> GetAllAlbums();
   }
 }
