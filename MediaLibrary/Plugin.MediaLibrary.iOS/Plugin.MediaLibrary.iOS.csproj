@@ -38,8 +38,10 @@
     <Compile Include="..\Plugin.MediaLibrary\CrossMediaLibrary.cs">
       <Link>CrossMediaLibrary.cs</Link>
     </Compile>
+    <Compile Include="Album.cs" />
     <Compile Include="MediaLibraryImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Track.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.MediaLibrary.Abstractions\Plugin.MediaLibrary.Abstractions.csproj">

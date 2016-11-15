@@ -9,6 +9,6 @@ namespace Plugin.MediaLibrary.Abstractions
   /// </summary>
   public interface IMediaLibrary
   {
-      IEnumerable<Album> GetAllAlbums();
+      IEnumerable<IAlbum> GetAllAlbums();
   }
 }

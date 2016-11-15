@@ -38,8 +38,9 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Album.cs" />
+    <Compile Include="IAlbum.cs" />
     <Compile Include="IMediaLibrary.cs" />
+    <Compile Include="ITrack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

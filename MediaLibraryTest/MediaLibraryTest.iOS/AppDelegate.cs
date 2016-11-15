@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Plugin.MediaLibrary;
 using UIKit;
 
 namespace MediaLibraryTest.iOS
@@ -24,6 +25,8 @@ namespace MediaLibraryTest.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            new MediaLibraryImplementation();
 
             return base.FinishedLaunching(app, options);
         }
